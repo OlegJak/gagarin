@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.css">
+        <title>Gagarin</title>
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid">
+                <div class="row header__row align-items-center justify-content-between justify-content-md-start">
+                    <div class="col-auto header__col
+                                col-sm-2
+                                px-3">
+                        <a href="#" id="header__link"><img src="img/logo.svg" alt="Logo" id="header__img"></a>
+                    </div>
+
+                    <div class="col-0 header__col
+                                col-sm-8 
+                                d-none d-md-block
+                                text-center">
+                        <div id="header__text"><img src="img/logo_text.svg" alt="" id="header__img__text"></div>
+                    </div>
+
+                    <div class="col-auto header__col
+                                d-md-none">
+                        <button class="btn btn-outline-dark header__nav__icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars header__icon"></i></button>
+
+                            <div class="offcanvas offcanvas-end nav__menu__ms w-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h5 id="offcanvasRightLabel"></h5>
+                                        <button type="button" class="btn-close btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="header__ul">
+                                        <li class="header__li"><img src="img/logo.svg" alt="" id="header__img__bar"></li>
+                                        <li class="header__li"><a href="#" class="header__links">Главная</a></li>
+                                        <li class="header__li"><a href="#" class="header__links">Мастер.классы</a></li>
+                                        <li class="header__li"><a href="#" class="header__links">Альбом</a></li>
+                                        <li class="header__li"><a href="#" class="header__links">Проекты</a></li>
+                                        <li class="header__li"><a href="#" class="header__links">О нас</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="section__1">
+                <div class="container section__1__container">
+                    <ul class="row section__1__ul">
+                        <li class="col-md d-none d-md-inline"><a href="">Главная</a></li>
+                        <li class="col-md d-none d-md-inline">|</li>
+                        <li class="col-md d-none d-md-inline"><a href="">Мастер.классы</a></li>
+                        <li class="col-md d-none d-md-inline">|</li>
+                        <li class="col-md d-none d-md-inline"><a href="">Альбом</a></li>
+                        <li class="col-md d-none d-md-inline">|</li>
+                        <li class="col-md d-none d-md-inline"><a href="">Проекты</a></li>
+                        <li class="col-md d-none d-md-inline">|</li>
+                        <li class="col-md d-none d-md-inline"><a href="">О нас</a></li>
+                    </ul>    
+                </div>
+
+
+            </section>
+        </main>
+
+
+        <script src="js/bootstrap.bundle.js"></script>
+    </body>
+</html>
