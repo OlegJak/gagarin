@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Koulen&family=Macondo&family=Oswald:wght@300&display=swap');
+@font-face {
+	font-family: 'menu';
+	src: url('../fonts/catorze27style1-semibold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/catorze27style1-semibold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/catorze27style1-semibold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/catorze27style1-semibold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/catorze27style1-semibold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/catorze27style1-semibold.svg#catorze27style1-semibold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+header{
+    height: 75px;
+    background-color: black;
+
+}
+
+#header__img{
+    width: 65px;
+    transform: scale(1), rotate(0deg);
+    transition: all 0.5s;
+}
+
+#header__img:hover{
+    transform: rotate(360deg);
+}
+
+#header__img:active{
+    transform: scale(1.1);
+}
+
+
+
+.header__row{
+    height: 75px;
+}
+
+#header__text{
+    height: 100%;
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header__img__text{
+    width: 400px;
+    pointer-events: none
+
+}
+
+.header__col{
+    height: 100%;
+    display: flex;
+}
+
+#header__link{
+    display: block;
+    align-self: center;
+}
+
+.nav__menu__ms{
+    width: 50px;
+    background-color: black;
+}
+
+.header__nav__icon{
+    border: none;
+    border-radius: 0%;
+    align-self: center;
+    height: 60px;
+    width: 60px;
+}
+
+
+
+.header__icon{
+    font-size: 30px;
+    color: #fff;
+}
+
+.header__links{
+    color: rgb(187, 187, 187);
+    height: 60px;
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 0px auto;
+    width: 55%;
+    border: 2px solid rgb(214, 214, 214);
+    transition: all 0.2s;
+    transform: scale(1);
+    border-radius: 4px;
+    font-family: Oswald;
+}
+
+.header__links:hover{
+    background-color: rgb(8, 8, 8);
+    color: #fff;
+}
+
+.header__links:active{
+    transform: scale(1.05);
+}
+
+#header__img__bar{
+    width: 100px;
+}
+
+.header__li{
+    text-align: center;
+}
+
+.header__ul{
+    padding: 0;
+}
+
+.section__1{
+    background-image: url(../img/section__1__background.jpg);
+    background-position: 50%;
+    height: 100vh;
+    background-attachment: fixed;
+    padding-top: 10px;
+}
+
+.section__1__container{
+    background-color: black;
+}
+
+.section__1__ul{
+    height: 35px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
