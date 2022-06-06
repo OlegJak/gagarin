@@ -9,6 +9,9 @@
 		url('../fonts/catorze27style1-semibold.svg#catorze27style1-semibold') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
+
+
+
 header{
     height: 75px;
     background-color: black;
@@ -114,28 +117,97 @@ header{
     text-align: center;
 }
 
-.header__ul{
-    padding: 0;
+
+.header__li:nth-child(2){
+    margin-top: 30px;
 }
 
-.section__1{
-    background-image: url(../img/section__1__background.jpg);
-    background-position: 50%;
-    height: 100vh;
+.header__ul__block{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header__ul{
+    padding: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+    background-image: url(/img/section__1__background.jpg);
     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+.section__1{
     padding-top: 10px;
 }
 
 .section__1__container{
-    background-color: black;
+    margin: auto;
 }
 
 .section__1__ul{
     height: 35px;
-    border: 1px solid red;
+    max-width: 850px;
+    margin: auto;
     display: flex;
     align-items: center;
     text-align: center;
     color: #fff;
     font-size: 20px;
+    background-color: black;
 }
