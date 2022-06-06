@@ -56,24 +56,31 @@
         <main>
             <section class="section__1">
                 <div class="container section__1__container">
-                    <ul class="row section__1__ul d-none d-md-flex">
-                        <li class="col-md d-none d-md-block"><a href="">Главная</a></li>
-                        <li class="col-md d-none d-md-block">|</li>
-                        <li class="col-md d-none d-md-block"><a href="">Мастер.классы</a></li>
-                        <li class="col-md d-none d-md-block">|</li>
-                        <li class="col-md d-none d-md-block"><a href="">Альбом</a></li>
-                        <li class="col-md d-none d-md-block">|</li>
-                        <li class="col-md d-none d-md-block"><a href="">Проекты</a></li>
-                        <li class="col-md d-none d-md-block">|</li>
-                        <li class="col-md d-none d-md-block"><a href="">О нас</a></li>
-                    </ul>    
+                    <div class="section__1__ulBlock d-none d-md-flex">
+                        <ul class="row section__1__ul d-none d-md-flex px-0">
+                            <li class="col-md d-none d-lg-block section__1__li section__1__li__link"><a href="" class="section__1__nav">ГЛАВНАЯ</a></li>
+                            <li class="col-md d-none d-lg-block section__1__li section__1__li__palochi">|</li>
+                            <li class="col-md d-none d-md-block section__1__li section__1__li__link"><a href="" class="section__1__nav">МЕСТЕР-КЛАССЫ</a></li>
+                            <li class="col-md d-none d-md-block section__1__li section__1__li__palochi">|</li>
+                            <li class="col-md d-none d-md-block section__1__li section__1__li__link"><a href="" class="section__1__nav">АЛЬБОМ</a></li>
+                            <li class="col-md d-none d-md-block section__1__li section__1__li__palochi">|</li>
+                            <li class="col-md d-none d-md-block section__1__li section__1__li__link"><a href="" class="section__1__nav">ПРОЕКТЫ</a></li>
+                            <li class="col-md d-none d-md-block section__1__li section__1__li__palochi">|</li>
+                            <li class="col-md d-none d-md-block section__1__li section__1__li__link"><a href="" class="section__1__nav">О НАС</a></li>
+                        </ul>
+                    </div>    
                 </div>
 
 
             </section>
         </main>
 
-
+        <div class="position-fixed bottom-0 end-0 fs-1 d-sm-none text-danger fw-bold"> XS (&lt;576)</div>
+        <div class="position-fixed bottom-0 end-0 fs-1 d-none d-sm-block d-md-none text-danger fw-bold">(>576) SM (&lt;768)</div>
+        <div class="position-fixed bottom-0 end-0 fs-1 d-none d-md-block d-lg-none text-danger fw-bold">(>768) MD (&lt;992)</div>
+        <div class="position-fixed bottom-0 end-0 fs-1 d-none d-lg-block d-xl-none text-danger fw-bold">(>992) LG (&lt;1200)</div>
+        <div class="position-fixed bottom-0 end-0 fs-1 d-none d-xl-block d-xxl-none text-danger fw-bold">(>1200) XL (&lt;1400) </div>
+        <div class="position-fixed bottom-0 end-0 fs-1 d-none d-xxl-block text-danger fw-bold">XXL (>1400)</div>
         <script src="js/bootstrap.bundle.js"></script>
     </body>
 </html>
