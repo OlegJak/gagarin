@@ -319,7 +319,9 @@ main{
     text-shadow: 4px 4px 13px #000;
 }
 
-
+.section__1__content{
+    height: 900px;
+}
 
 
 
@@ -343,12 +345,12 @@ main{
 
 .section__12__hr{
     margin: 5px 0px 20px 0px;
-    height: 3px;
+    height: 5px;
 }
 
 
 .section__12__h1{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
 }
 
@@ -363,7 +365,6 @@ main{
 
 .section__12__imgContainer{
     margin: auto;
-    border: 1px solid orange;
     text-align: center;
     margin-top: 20px;
 }
@@ -378,7 +379,12 @@ main{
 
 
 
-
+.section__13__li{
+    list-style-type: disc;
+    font-size: 23px;
+    list-style-position: inside;
+    margin-top: 10px;
+}
 
 
 
