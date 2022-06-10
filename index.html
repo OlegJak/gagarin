@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/all.css">
@@ -12,6 +13,11 @@
     </head>
     <body>
         <div class="body__top" id="body__top">top_link</div>
+        <div class="preloader">
+            <div class="preloader__row">
+                <div class="preloader__item"><img src="img/logo.svg" alt=""></div>
+            </div>
+        </div>
         <header>
             <div class="container-fluid header__content__1">
                 <div class="row header__row align-items-center justify-content-between justify-content-md-start">
@@ -45,7 +51,7 @@
                                             <li class="header__li"><a href="pages/master-class.html" class="header__links">Мастер-классы</a></li>
                                             <li class="header__li"><a href="https://www.facebook.com/keskus.gagarin/photos?tab=albums" class="header__links">Альбом</a></li>
                                             <li class="header__li"><a href="pages/project.html" class="header__links">Проекты</a></li>
-                                            <li class="header__li"><a href="#" class="header__links">О нас</a></li>
+                                            <li class="header__li"><a href="pages/info.html" class="header__links">О нас</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -59,7 +65,7 @@
                 <div class="container section__1__container">
                     <div class="section__1__ulBlock d-none d-md-flex">
                         <ul class="row section__1__ul d-none d-md-flex px-0">
-                            <li class="col-md d-none d-lg-block section__1__li section__1__li__link"><a href="index.html" class="section__1__nav">ГЛАВНАЯ</a></li>
+                            <li class="col-md d-none d-lg-block section__1__li section__1__li__link"><a href="index.html" class="section__1__nav" id="section__1__visited">ГЛАВНАЯ</a></li>
                             <li class="col-md d-none d-lg-block section__1__li section__1__li__palochi">|</li>
                             <li class="col-md d-none d-md-block section__1__li section__1__li__link"><a href="pages/master-class.html" class="section__1__nav">МАСТЕР-КЛАССЫ</a></li>
                             <li class="col-md d-none d-md-block section__1__li section__1__li__palochi">|</li>
@@ -67,7 +73,7 @@
                             <li class="col-md d-none d-md-block section__1__li section__1__li__palochi">|</li>
                             <li class="col-md d-none d-md-block section__1__li section__1__li__link"><a href="pages/project.html" class="section__1__nav">ПРОЕКТЫ</a></li>
                             <li class="col-md d-none d-md-block section__1__li section__1__li__palochi">|</li>
-                            <li class="col-md d-none d-md-block section__1__li section__1__li__link"><a href="" class="section__1__nav">О НАС</a></li>
+                            <li class="col-md d-none d-md-block section__1__li section__1__li__link"><a href="pages/info.html" class="section__1__nav">О НАС</a></li>
                         </ul>
                     </div>    
                 </div>
@@ -89,16 +95,16 @@
                             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/nashi__raboti/img1.png" class="d-block w-100" alt="...">
+                                    <img src="img/nashi__raboti/img1.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/nashi__raboti/img6.png" class="d-block w-100" alt="...">
+                                    <img src="img/nashi__raboti/img6.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/nashi__raboti/img7.png" class="d-block w-100" alt="...">
+                                    <img src="img/nashi__raboti/img7.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/nashi__raboti/img5.png" class="d-block w-100" alt="...">
+                                    <img src="img/nashi__raboti/img5.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
@@ -126,13 +132,13 @@
                                     </div>
                                     <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="img/project/img1.png" class="d-block w-100" alt="...">
+                                        <img src="img/project/img1.jpg" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="img/project/img2.png" class="d-block w-100" alt="...">
+                                        <img src="img/project/img2.jpg" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="img/project/img4.png" class="d-block w-100" alt="...">
+                                        <img src="img/project/img4.jpg" class="d-block w-100" alt="...">
                                     </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -145,7 +151,7 @@
                                     </button>
                                 </div>
                         </div>
-                        <a href=""><div class="link__container">Смотреть еще</div></a>
+                        <a href="pages/project.html"><div class="link__container">Смотреть еще</div></a>
                     </div>
                 </div>              
             </div>
@@ -156,13 +162,13 @@
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/master_class/img1.png" class="d-block w-100" alt="...">
+                        <img src="img/master_class/img1.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/master_class/img2.png" class="d-block w-100" alt="...">
+                        <img src="img/master_class/img2.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/master_class/img3.png" class="d-block w-100" alt="...">
+                        <img src="img/master_class/img3.jpg" class="d-block w-100" alt="...">
                     </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="prev">
@@ -200,7 +206,7 @@
                 <div class="container-fluid">
                     <div class="row row-cols-1 row-cols-md-2 justify-content-between">
                         <div class="col col-md-auto">
-                            <p class="footer__p">GAGARIN KESKUS 2006-2022</p>
+                            <a href="#body__top"><p class="footer__p">GAGARIN KESKUS 2006-2022</p></a>
                         </div>
                         <div class="col col-md-auto">
                             <a href="https://kutsehariduskeskus.ee/"><img src="img/ivkhk.svg" alt="" id="footer__img"></a>
@@ -217,13 +223,6 @@
 
 
 
-
-        <div class="position-fixed bottom-0 end-0 fs-1 d-sm-none text-danger fw-bold"> XS (&lt;576)</div>
-        <div class="position-fixed bottom-0 end-0 fs-1 d-none d-sm-block d-md-none text-danger fw-bold">(>576) SM (&lt;768)</div>
-        <div class="position-fixed bottom-0 end-0 fs-1 d-none d-md-block d-lg-none text-danger fw-bold">(>768) MD (&lt;992)</div>
-        <div class="position-fixed bottom-0 end-0 fs-1 d-none d-lg-block d-xl-none text-danger fw-bold">(>992) LG (&lt;1200)</div>
-        <div class="position-fixed bottom-0 end-0 fs-1 d-none d-xl-block d-xxl-none text-danger fw-bold">(>1200) XL (&lt;1400) </div>
-        <div class="position-fixed bottom-0 end-0 fs-1 d-none d-xxl-block text-danger fw-bold">XXL (>1400)</div>
 
         <script src="js/jquery-3.6.0.js"></script>
         <script src="js/bootstrap.bundle.js"></script>
