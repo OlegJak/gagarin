@@ -4,13 +4,20 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon">
         <link rel="stylesheet" href="../css/bootstrap.css">
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/all.css">
         <link rel="stylesheet" href="../css/style.css">
-        <title>Gagarin</title>
+        <title>Gagarin | Проекты</title>
     </head>
     <body>
+        <div class="body__top" id="body__top">top_link</div>
+        <div class="preloader">
+            <div class="preloader__row">
+                <div class="preloader__item"><img src="../img/logo.svg" alt=""></div>
+            </div>
+        </div>
         <div class="body__top" id="body__top">top_link</div>
         <header>
             <div class="container-fluid header__content__1">
@@ -45,7 +52,7 @@
                                             <li class="header__li"><a href="master-class.html" class="header__links">Мастер.классы</a></li>
                                             <li class="header__li"><a href="https://www.facebook.com/keskus.gagarin/photos?tab=albums" class="header__links">Альбом</a></li>
                                             <li class="header__li"><a href="project.html" class="header__links">Проекты</a></li>
-                                            <li class="header__li"><a href="#" class="header__links">О нас</a></li>
+                                            <li class="header__li"><a href="info.html" class="header__links">О нас</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -65,9 +72,9 @@
                             <li class="col-md d-none d-md-block section__1__li section__1__li__palochi">|</li>
                             <li class="col-md d-none d-md-block section__1__li section__1__li__link"><a href="https://www.facebook.com/keskus.gagarin/photos?tab=albums" class="section__1__nav">АЛЬБОМ</a></li>
                             <li class="col-md d-none d-md-block section__1__li section__1__li__palochi">|</li>
-                            <li class="col-md d-none d-md-block section__1__li section__1__li__link"><a href="project.html" class="section__1__nav">ПРОЕКТЫ</a></li>
+                            <li class="col-md d-none d-md-block section__1__li section__1__li__link"><a href="project.html" class="section__1__nav" id="section__1__visited">ПРОЕКТЫ</a></li>
                             <li class="col-md d-none d-md-block section__1__li section__1__li__palochi">|</li>
-                            <li class="col-md d-none d-md-block section__1__li section__1__li__link"><a href="" class="section__1__nav">О НАС</a></li>
+                            <li class="col-md d-none d-md-block section__1__li section__1__li__link"><a href="info.html" class="section__1__nav">О НАС</a></li>
                         </ul>
                     </div>    
                 </div>
@@ -174,7 +181,7 @@
                 <div class="container-fluid">
                     <div class="row row-cols-1 row-cols-md-2 justify-content-between">
                         <div class="col col-md-auto">
-                            <p class="footer__p">GAGARIN KESKUS 2006-2022</p>
+                            <a href="#body__top"><p class="footer__p">GAGARIN KESKUS 2006-2022</p></a>
                         </div>
                         <div class="col col-md-auto">
                             <a href="https://kutsehariduskeskus.ee/"><img src="../img/ivkhk.svg" alt="" id="footer__img"></a>
@@ -189,15 +196,6 @@
         </main>
 
 
-
-
-
-        <div class="position-fixed bottom-0 end-0 fs-1 d-sm-none text-danger fw-bold"> XS (&lt;576)</div>
-        <div class="position-fixed bottom-0 end-0 fs-1 d-none d-sm-block d-md-none text-danger fw-bold">(>576) SM (&lt;768)</div>
-        <div class="position-fixed bottom-0 end-0 fs-1 d-none d-md-block d-lg-none text-danger fw-bold">(>768) MD (&lt;992)</div>
-        <div class="position-fixed bottom-0 end-0 fs-1 d-none d-lg-block d-xl-none text-danger fw-bold">(>992) LG (&lt;1200)</div>
-        <div class="position-fixed bottom-0 end-0 fs-1 d-none d-xl-block d-xxl-none text-danger fw-bold">(>1200) XL (&lt;1400) </div>
-        <div class="position-fixed bottom-0 end-0 fs-1 d-none d-xxl-block text-danger fw-bold">XXL (>1400)</div>
 
         <script src="../js/jquery-3.6.0.js"></script>
         <script src="../js/bootstrap.bundle.js"></script>
